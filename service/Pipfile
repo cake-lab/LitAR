@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tornado = "*"
+numpy = "==1.21.6"
+fire = "*"
+imageio = "*"
+ipykernel = "*"
+open3d = "*"
+opencv-python = "*"
+scikit-image = "*"
+pandas = "*"
+numba = "*"
+tqdm = "*"
+linetimer = "*"
+snakeviz = "*"
+profilehooks = "*"
+websocket-client = "*"
+py360convert = "*"
+seaborn = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.10"
