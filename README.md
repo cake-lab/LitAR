@@ -1,4 +1,4 @@
-# LitAR: Visually Coherent Lighting for Mobile Augmented Reality
+# LitAR: Visually Coherent Lighting for Mobile Augmented Reality ([Project Page](https://yiqinzhao.me/project/litar/))
 
 Authors:
 - [Yiqin Zhao](https://yiqinzhao.me), Worcester Polytechnic Institute, USA
