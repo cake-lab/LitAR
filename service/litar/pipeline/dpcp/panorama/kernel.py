@@ -115,14 +115,6 @@ def draw_far_field(out_canvas_norms, in_anchor_acc, in_anchor_xyz, in_anchor_rgb
     n = out_canvas_norms[v, u]
     w, r, g, b = 0, 0, 0, 0
 
-    # Should NOT do this, don't know why
-    # out_canvas_norms[v, u, 0] = 0
-    # out_canvas_norms[v, u, 1] = 0
-    # out_canvas_norms[v, u, 2] = 0
-
-    # for i in range(anchor_xyz.shape[0]):
-    #     i_anchor = i
-
     for i in range(in_anchor_acc.shape[2]):
         i_anchor = in_anchor_acc[v, u, i]
         a = in_anchor_xyz[i_anchor]

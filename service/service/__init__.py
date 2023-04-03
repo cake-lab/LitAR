@@ -16,8 +16,8 @@ def start_service(port=PORT, debug=True):
     """
 
     routes = [
-        *api_v1_http_routes,
-        *archer_websocket_routes
+        *api_v1_http_routes, # API HTTP routes, marked as version v1.
+        *archer_websocket_routes # WebSockets routes for debugging.
     ]
 
     os.system('clear')

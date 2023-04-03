@@ -25,7 +25,7 @@ Start the service.
 - `litar`: LitAR system code.
 - `pyreality`: a 3D computation library.
 - `tests`: testing code.
-- `tmp`: a local temporary file folder (DO NOT REMOVE).
+- `tmp`: a local temporary file folder (**DO NOT REMOVE**).
 - `config.py`: configuration file.
 - `launch.py`: command line entry script
 - `Pipfile`: pipenv dependency definition file

@@ -1,8 +1,7 @@
 # LitAR Reference Application
 
 This repo is a reference implementation of an AR app that is built with LitAR.
-Note that we include the LitAR client APIs via the following files:
-
+Note that we include the LitAR APIs via the following files:
 - `./Assets/Scripts/LitARR`: core framework components
 
 Below we first describe the basic steps to run the reference AR application on a Unity-compatible computer, followed by instructions to run on compatible iOS devices.
@@ -19,10 +18,9 @@ private const string Endpoint = "http://cake-graphics.dyn.wpi.edu:8550";
 To setup the LitAR reference application, please first download the Unity3D and load `client` directory as a project.
 Once the project finishes loading, use the Play button on the center top of Unity editor to start the AR application.
 
-After the application starts, please follow the Unity editor's console log information to identify the appropriate Unity's application persistent data path. For example, below is a screenshot that shows the configured path in our MacBook.
+After the application starts, please follow the Unity editor's console log information to identify the appropriate Unity's application persistent data path.
 
 ## iOS Deployment
 
 To deploy the application to iOS device, first change the project build settings to `iOS` to generate an iOS project.
-Then, compile and deploy the code to an iOS device.
-Note that an Apple developer account is needed in order to sign the compiled iOS application during deployment.
+Then, compile and deploy the project to an iOS device.

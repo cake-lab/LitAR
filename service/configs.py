@@ -1,5 +1,7 @@
-# System configurations
-PORT = 8753
+# To use a different quality setting, you need to comment out the current setting,
+# and then uncomment the desired setting.
+
+# System configurationsPORT = 8753
 
 # Quality Setting: Low
 MLP_SEQUENCE = [256, 128, 32]
