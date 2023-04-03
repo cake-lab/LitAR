@@ -1,0 +1,4 @@
+# testing envmap rendering
+POST http://localhost:8753/api/reconstruction/keyframe/ HTTP/1.1
+
+< ./data/example_point_cloud.bytes
