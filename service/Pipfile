@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 tornado = "*"
-numpy = "==1.21.6"
+numpy = ">=1.22"
 fire = "*"
 imageio = "*"
 ipykernel = "*"
@@ -21,6 +21,7 @@ profilehooks = "*"
 websocket-client = "*"
 py360convert = "*"
 seaborn = "*"
+Werkzeug = ">=2.2.3"
 
 [dev-packages]
 autopep8 = "*"
