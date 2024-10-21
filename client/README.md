@@ -8,7 +8,7 @@ Below we first describe the basic steps to run the reference AR application on a
 
 ## Basic Setup
 
-Before setting up the reference application, please make sure you have setup the [LitAR server](../server/) with a publicly-accessible network address.
+Before setting up the reference application, please make sure you have setup the [LitAR server](../service/) with a publicly-accessible network address.
 Then, update the `Endpoint` constant (in `Assets/Scripts/LitAR/Network/ARLightingReconstructionManager.cs`) to point to the server address. Below is an example when we set the `Endpoint` to point to our lab's server.
 
 ```csharp
